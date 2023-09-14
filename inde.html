@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital@1&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <title>E-Devices</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+
+            <img class="nombre1" src="img/nombre.jpg" alt="">
+            <ul>
+                <li><a href="#">INICIO</a></li>
+                <li><a href="contacto.html">CONTACTANOS</a></li>
+                <li><a href="catalogo.html">CATALOGO</a></li>
+                <li><a href="sesion.html">INICIAR SESIÓN</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <!--de aqui para abajo va el carrusel en 3d-->
+    <h1>Tu tienda de tecnologia de confianza</h1>
+
+    <div class="container">
+        <div class="card-carousel">
+            <div class="card" id="1">
+                <div class="image-container"></div>
+                <p>Sony MDR-Z1R Signature Series</p>
+            </div>
+            <div class="card" id="2">
+                <div class="image-container"></div>
+                <p>Apple Watch Edition</p>
+            </div>
+            <div class="card" id="3">
+                <div class="image-container"></div>
+                <p>Neutrogena skincare</p>
+            </div>
+            <div class="card" id="4">
+                <div class="image-container"></div>
+                <p>Herramientas Craftsman</p>
+            </div>
+            <div class="card" id="5">
+                <div class="image-container"></div>
+                <p>Adaptador de corriente USB de Apple</p>
+            </div>
+        </div>
+        <a href="#" class="visuallyhidden card-controller">Carousel controller</a>
+    </div>
+
+
+    <h2>¡Hola! E-Drivers te da la bienvenida a su pagina wed</h2>
+    <p class="gracias">Devo advertir que por el momento esta pagina wed unicamente es una maqueta que vamos a ir
+     mejorando tu experiencia en nuestra tienda, gracias por elegir nuestra tienda</p>
+    <p class="nota">Nota: la pagina solo es para que puedas ver nuestros productos y elijas el que te gusta, luego de que los elijas
+        toma una captura y nos la envias al insta.</p>
+    <p class="gracias1">gracias por su atencion</p>
+    <!--desde aqui empieza el catalogo de productos-->
+
+    <section class="contenedor">
+        <!-- Contenedor de elementos -->
+        <div class="contenedor-items">
+            <div class="item">
+                <span class="titulo-item">Airpods 3 Gen</span>
+                <img src="img/airpods3.webp" alt="" class="img-item">
+                <span class="precio-item">COP 889.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">AirPods MAX</span>
+                <img src="img/Airpods MAX.png" alt="" class="img-item">
+                <span class="precio-item">COP 250.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Audifonos A6s Tws</span>
+                <img src="img/audifonoA6s.png" alt="" class="img-item">
+                <span class="precio-item">COP 50.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">BeatsPowerbeatsPro</span>
+                <img src="img/powerbeats.png" alt="" class="img-item">
+                <span class="precio-item">COP 265.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Base De Carga Controles Sony Play Ps5</span>
+                <img src="img/baseps5.png" alt="" class="img-item">
+                <span class="precio-item">COP 70.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">intercomunicador casco</span>
+                <img src="img/intercomunicador.png" alt="" class="img-item">
+                <span class="precio-item">COP 115.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Kit Limpiador de Airpods </span>
+                <img src="img/LimpiadorAirpods.png" alt="" class="img-item">
+                <span class="precio-item">COP 24.900</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">T500 + PRO Series 8 HiWatch Smart watch</span>
+                <img src="img/t500series8.png" alt="" class="img-item">
+                <span class="precio-item">COP 115.200</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            
+        </div>
+        <!-- Carrito de Compras -->
+        <div class="carrito" id="carrito">
+            <div class="header-carrito">
+                <p class="tucarrito">Tu carrito</p>
+            </div>
+
+            <div class="carrito-items">
+                <!-- 
+            <div class="carrito-item">
+                <img src="img/boxengasse.png" width="80px" alt="">
+                <div class="carrito-item-detalles">
+                    <span class="carrito-item-titulo">Box Engasse</span>
+                    <div class="selector-cantidad">
+                        <i class="fa-solid fa-minus restar-cantidad"></i>
+                        <input type="text" value="1" class="carrito-item-cantidad" disabled>
+                        <i class="fa-solid fa-plus sumar-cantidad"></i>
+                    </div>
+                    <span class="carrito-item-precio">$15.000,00</span>
+                </div>
+               <span class="btn-eliminar">
+                    <i class="fa-solid fa-trash"></i>
+               </span>
+            </div>
+            <div class="carrito-item">
+                <img src="img/skinglam.png" width="80px" alt="">
+                <div class="carrito-item-detalles">
+                    <span class="carrito-item-titulo">Skin Glam</span>
+                    <div class="selector-cantidad">
+                        <i class="fa-solid fa-minus restar-cantidad"></i>
+                        <input type="text" value="3" class="carrito-item-cantidad" disabled>
+                        <i class="fa-solid fa-plus sumar-cantidad"></i>
+                    </div>
+                    <span class="carrito-item-precio">$18.000,00</span>
+                </div>
+               <button class="btn-eliminar">
+                    <i class="fa-solid fa-trash"></i>
+               </button>
+            </div>
+             -->
+            </div>
+            <div class="carrito-total">
+                <div class="fila">
+                    <strong>Tu Total</strong>
+                    <p>COP</p>
+                </div>
+                <button class="btn-pagar">Pagar<i class="fa-solid fa-bag-shopping"></i></button>
+            </div>
+        </div>
+    </section>
+
+
+    <!--desde aca empieza el pie de pagina-->
+
+    <section class="contact-area" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <div class="contact-content text-center">
+                        <a class="logox2"><img src="img/nombre.jpg" alt="logo"></a>
+                        <p>Tu tienda de moda y tecnologia</p>
+                        <div class="hr"></div>
+                        <h6>las mejores prendas y lo mejor en tecnologia en un solo lugar.</h6>
+                        <h6>+57 310 705 0008</h6>
+                        <div class="contact-social">
+                            <ul>
+                                <li><a class="hover-target" href="https://www.tiktok.com/@edevices0?lang=es" target="_blank"><i class="fa-brands fa-tiktok"></i></a></li>
+                                <li><a class="hover-target" href="https://instagram.com/edevicesoficial?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"> <i class="fa-brands fa-instagram"></i></a></li>
+                                
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =============== 1.9 Contact Area End ====================-->
+    <!-- =============== 1.9 Footer Area Start ====================-->
+    <footer>
+        <p class="lo_ultimo">Copyright &copy; 2023 <img src="img/logopng.png" alt="logo"> derechos Reservados.</p>
+    </footer>
+
+    <script src="funcion.js"></script>
+    <script src="catalogo.js"></script>
+</body>
+
+</html>
